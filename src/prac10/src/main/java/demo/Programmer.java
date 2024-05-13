@@ -1,4 +1,4 @@
-package prac10.src.main.java.demo;
+package demo;
 
 public interface Programmer {
     void doCoding();

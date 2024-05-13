@@ -1,4 +1,4 @@
-package prac12.demo.src.main.java.demo;
+package demo;
 
 import org.springframework.stereotype.Component;
 import jakarta.annotation.PostConstruct;

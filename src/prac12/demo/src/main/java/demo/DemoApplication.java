@@ -1,4 +1,4 @@
-package prac12.demo.src.main.java.demo;
+package demo;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -25,7 +25,7 @@ public class DemoApplication implements CommandLineRunner {
         String inputFile = args[0];
         String outputFile = args[1];
         System.out.println(inputFile + " " + outputFile);
-        
+
         Hasher h = (Hasher) context.getBean(MyHasher.class);
 
         h.hash(inputFile, outputFile);
